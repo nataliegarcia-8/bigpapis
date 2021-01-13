@@ -23,7 +23,12 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Satisfy", sans-serif;
 }
 
@@ -119,7 +124,8 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 3px;
 }
 
-#header .logo h1 a, #header .logo h1 a:hover {
+#header .logo h1 a,
+#header .logo h1 a:hover {
   color: #fff;
   text-decoration: none;
 }
@@ -141,7 +147,8 @@ h1, h2, h3, h4, h5, h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Desktop Navigation */
-.nav-menu, .nav-menu * {
+.nav-menu,
+.nav-menu * {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -164,7 +171,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
 }
 
-.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+.nav-menu a:hover,
+.nav-menu .active > a,
+.nav-menu li:hover > a {
   color: #ffb03b;
   text-decoration: none;
 }
@@ -220,7 +229,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #433f39;
 }
 
-.nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
+.nav-menu .drop-down ul a:hover,
+.nav-menu .drop-down ul .active > a,
+.nav-menu .drop-down ul li:hover > a {
   color: #ffb03b;
 }
 
@@ -315,7 +326,9 @@ h1, h2, h3, h4, h5, h6 {
   outline: none;
 }
 
-.mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
+.mobile-nav a:hover,
+.mobile-nav .active > a,
+.mobile-nav li:hover > a {
   color: #ffb03b;
   text-decoration: none;
 }
@@ -410,7 +423,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .carousel-item::before {
-  content: '';
+  content: "";
   background-color: rgba(12, 11, 10, 0.5);
   position: absolute;
   top: 0;
@@ -479,12 +492,14 @@ h1, h2, h3, h4, h5, h6 {
   transform: translate3d(0, 0, 0);
 }
 
-#hero .carousel-control-prev, #hero .carousel-control-next {
+#hero .carousel-control-prev,
+#hero .carousel-control-next {
   width: 10%;
   opacity: 1;
 }
 
-#hero .carousel-control-next-icon, #hero .carousel-control-prev-icon {
+#hero .carousel-control-next-icon,
+#hero .carousel-control-prev-icon {
   background: none;
   font-size: 36px;
   line-height: 1;
@@ -497,7 +512,8 @@ h1, h2, h3, h4, h5, h6 {
   color: rgba(255, 255, 255, 0.5);
 }
 
-#hero .carousel-control-next-icon:hover, #hero .carousel-control-prev-icon:hover {
+#hero .carousel-control-next-icon:hover,
+#hero .carousel-control-prev-icon:hover {
   background: rgba(255, 255, 255, 0.2);
   color: rgba(255, 255, 255, 0.8);
 }
@@ -506,7 +522,8 @@ h1, h2, h3, h4, h5, h6 {
   cursor: pointer;
 }
 
-#hero .btn-menu, #hero .btn-book {
+#hero .btn-menu,
+#hero .btn-book {
   font-weight: 600;
   font-size: 13px;
   letter-spacing: 1px;
@@ -523,7 +540,8 @@ h1, h2, h3, h4, h5, h6 {
   border: 2px solid #ffb03b;
 }
 
-#hero .btn-menu:hover, #hero .btn-book:hover {
+#hero .btn-menu:hover,
+#hero .btn-book:hover {
   background: #ffb03b;
   color: #fff;
 }
@@ -538,7 +556,8 @@ h1, h2, h3, h4, h5, h6 {
   #hero p {
     width: 50%;
   }
-  #hero .carousel-control-prev, #hero .carousel-control-next {
+  #hero .carousel-control-prev,
+  #hero .carousel-control-next {
     width: 5%;
   }
 }
@@ -716,7 +735,7 @@ section {
 }
 
 .about .play-btn::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 50%;
   top: 50%;
@@ -731,7 +750,7 @@ section {
 }
 
 .about .play-btn::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 120px;
   height: 120px;
@@ -759,7 +778,7 @@ section {
 }
 
 .about .play-btn:hover::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 50%;
   top: 50%;
@@ -777,7 +796,8 @@ section {
 }
 
 @media (max-width: 1024px) {
-  .about .content, .about .accordion-list {
+  .about .content,
+  .about .accordion-list {
     padding-left: 0;
     padding-right: 0;
   }
@@ -851,7 +871,9 @@ section {
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
 }
 
-.why-us .box:hover span, .why-us .box:hover h4, .why-us .box:hover p {
+.why-us .box:hover span,
+.why-us .box:hover h4,
+.why-us .box:hover p {
   color: #fff;
 }
 
@@ -881,7 +903,8 @@ section {
   border-radius: 50px;
 }
 
-.menu #menu-flters li:hover, .menu #menu-flters li.filter-active {
+.menu #menu-flters li:hover,
+.menu #menu-flters li.filter-active {
   color: #fff;
   background: #ffb03b;
 }
@@ -899,7 +922,9 @@ section {
 }
 
 .menu .menu-content::after {
-  content: "......................................................................" "...................................................................." "....................................................................";
+  content: "......................................................................"
+    "...................................................................."
+    "....................................................................";
   position: absolute;
   left: 20px;
   right: 0;
@@ -1005,7 +1030,7 @@ section {
 }
 
 .events::before {
-  content: '';
+  content: "";
   background-color: rgba(12, 11, 10, 0.8);
   position: absolute;
   top: 0;
@@ -1073,7 +1098,8 @@ section {
   margin-bottom: 0;
 }
 
-.events .owl-nav, .events .owl-dots {
+.events .owl-nav,
+.events .owl-dots {
   margin-top: 5px;
   text-align: center;
 }
@@ -1161,7 +1187,8 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.book-a-table .php-email-form input, .book-a-table .php-email-form textarea {
+.book-a-table .php-email-form input,
+.book-a-table .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
@@ -1220,7 +1247,7 @@ section {
 }
 
 .chefs::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   right: 0;
@@ -1269,7 +1296,7 @@ section {
 }
 
 .chefs .member h4::after {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   width: 50px;
@@ -1372,7 +1399,8 @@ section {
   margin-bottom: 10px;
 }
 
-.testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
+.testimonials .testimonial-item .quote-icon-left,
+.testimonials .testimonial-item .quote-icon-right {
   color: rgba(255, 255, 255, 0.4);
   font-size: 26px;
 }
@@ -1396,7 +1424,8 @@ section {
   color: #eee;
 }
 
-.testimonials .owl-nav, .testimonials .owl-dots {
+.testimonials .owl-nav,
+.testimonials .owl-dots {
   margin-top: 5px;
   text-align: center;
 }
@@ -1530,7 +1559,8 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form input, .contact .php-email-form textarea {
+.contact .php-email-form input,
+.contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
