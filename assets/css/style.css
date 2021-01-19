@@ -105,6 +105,7 @@ h6 {
   transition: all 0.5s;
   padding: 10px 0;
   background: rgba(26, 24, 22, 0.85);
+  /* background: rgba( 170, 242, 0.20); */
 }
 
 #header.header-transparent {
@@ -114,6 +115,7 @@ h6 {
 #header.header-scrolled {
   top: 0;
   background: rgba(26, 24, 22, 0.85);
+  /* background: rgba( 170, 242, 0.20); */
 }
 
 #header .logo h1 {
@@ -1240,7 +1242,7 @@ section {
 # Chefs
 --------------------------------------------------------------*/
 .chefs {
-  background: url("../img/chefs-bg.jpg") center center no-repeat;
+  background: url("../img/sandwich.png") center center no-repeat;
   background-size: cover;
   padding: 60px 0;
   position: relative;
