@@ -669,6 +669,10 @@ section {
 # About
 --------------------------------------------------------------*/
 
+.about-icon {
+  color: #f48c44;
+}
+
 @media (max-width: 1024px) {
   .about .content,
   .about .accordion-list {
