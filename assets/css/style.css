@@ -10,7 +10,9 @@
 --------------------------------------------------------------*/
 
 body {
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  /* font-family: "Notable", sans-serif; */
+  font-family: 'Carrois Gothic SC', sans-serif;
   color: #444444;
 }
 
@@ -30,7 +32,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Satisfy", sans-serif;
+  /* font-family: "Satisfy", sans-serif; */
+  font-family: "Notable", sans-serif;
+  text-shadow: 2px 1px 1px rgba(0,0,0,.9)
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -173,7 +177,7 @@ h6 {
   transition: 0.3s;
   font-size: 15px;
   font-weight: 500;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Carrois Gothic SC', sans-serif;
 }
 
 .nav-menu a:hover,
@@ -668,6 +672,12 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+
+
+.about-img {
+width: 600px;
+height: 400px;
+}
 
 @media (max-width: 1024px) {
   .about .content,
