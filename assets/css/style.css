@@ -673,6 +673,12 @@ section {
 # About
 --------------------------------------------------------------*/
 
+
+.about-img {
+width: 600px;
+height: 400px;
+}
+
 @media (max-width: 1024px) {
   .about .content,
   .about .accordion-list {
