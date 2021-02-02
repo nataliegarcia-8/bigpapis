@@ -10,7 +10,10 @@
 --------------------------------------------------------------*/
 
 body {
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  /* font-family: "Notable", sans-serif; */
+  font-family: "Nunito", sans-serif;
+
   color: #444444;
 }
 
@@ -30,7 +33,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Satisfy", sans-serif;
+  /* font-family: "Satisfy", sans-serif; */
+  font-family: "Nunito", sans-serif;
+  /* text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.9); */
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -173,7 +178,7 @@ h6 {
   transition: 0.3s;
   font-size: 15px;
   font-weight: 500;
-  font-family: "Poppins", sans-serif;
+  font-family: "Arvo", sans-serif;
 }
 
 .nav-menu a:hover,
@@ -456,7 +461,8 @@ h6 {
   color: #fff;
   margin-bottom: 30px;
   font-size: 48px;
-  font-weight: 700;
+  font-weight: 400;
+  font-family: "Arvo", sans-serif;
 }
 
 #hero h2 span {
@@ -469,6 +475,7 @@ h6 {
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;
   color: #fff;
+  font-family: "Arvo", sans-serif;
 }
 
 #hero .carousel-inner .carousel-item {
@@ -671,6 +678,21 @@ section {
 
 .about-icon {
   color: #f48c44;
+  font-size: 2rem;
+  padding: 20px 0;
+}
+
+.about-header {
+  font-family: "Nunito", sans-serif;
+  font-weight: 200;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+.about-text {
+  font-weight: 200;
+  font-size: 1.125rem;
+  line-height: 2;
 }
 
 @media (max-width: 1024px) {
@@ -1096,6 +1118,20 @@ section {
 /*--------------------------------------------------------------
 # Gallery
 --------------------------------------------------------------*/
+
+#gallery h2 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+#gallery p {
+  font-family: "Nunito", sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
 .gallery {
   padding-bottom: 0;
 }
