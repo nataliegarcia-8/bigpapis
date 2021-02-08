@@ -12,7 +12,7 @@
 body {
   /* font-family: "Poppins", sans-serif; */
   /* font-family: "Notable", sans-serif; */
-  font-family: "Nunito", sans-serif;
+  font-family: "Raleway", sans-serif;
 
   color: #444444;
 }
@@ -25,17 +25,6 @@ a {
 a:hover {
   color: #ffc56e;
   text-decoration: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  /* font-family: "Satisfy", sans-serif; */
-  font-family: "Nunito", sans-serif;
-  /* text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.9); */
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -211,7 +200,7 @@ h6 {
   text-decoration: none;
   display: inline-block;
   color: rgba(202, 206, 221, 0.8);
-  font-family: "Raleway", sans-serif;
+  font-family: "Vast Shadow", cursive;
   font-weight: 600;
   font-size: 14px;
   outline: none;
@@ -891,7 +880,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro {
   width: 100%;
   height: 100vh;
-  background: url(../img/about.jpg) top center;
+  /* background: url(../img/about.jpg) top center; */
+  background-color: #444444;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -924,7 +914,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  padding: 0 15px;
 }
 
 @media (max-width: 991px) {
@@ -935,7 +924,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro h1 {
   color: #fff;
-  font-family: "Raleway", sans-serif;
+  font-family: "Vast Shadow", cursive;
   font-size: 56px;
   font-weight: 600;
   text-transform: uppercase;
@@ -964,7 +953,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro .about-btn {
-  font-family: "Raleway", sans-serif;
+  font-family: "Vast Shadow", cursive;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -1028,10 +1017,6 @@ section {
   font-size: 32px;
   font-weight: 700;
   color: #5f5950;
-}
-
-.section-title h2 span {
-  color: #f48c44;
 }
 
 .section-title p {
@@ -1116,7 +1101,7 @@ section {
 }
 
 .about-header {
-  font-family: "Nunito", sans-serif;
+  font-family: "Vast Shadow", cursive;
   font-weight: 200;
   font-size: 2.5rem;
   text-transform: uppercase;
@@ -1126,6 +1111,7 @@ section {
   font-weight: 200;
   font-size: 1.125rem;
   line-height: 2;
+  font-family: "Raleway", sans-serif;
 }
 
 @media (max-width: 1024px) {
@@ -1557,14 +1543,14 @@ section {
 }
 
 #gallery h2 {
-  font-family: "Nunito", sans-serif;
+  font-family: "Vast Shadow", cursive;
   font-weight: 400;
   font-size: 2.5rem;
   text-transform: uppercase;
 }
 
 #gallery p {
-  font-family: "Nunito", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 200;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
@@ -1847,6 +1833,19 @@ section {
   background: #fff;
 }
 
+.contact h2 {
+  font-family: "Vast Shadow", cursive;
+  font-weight: 400;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: #444444;
+}
+
+.contact p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+}
+
 .contact .info i {
   font-size: 20px;
   color: #f48c44;
@@ -1867,7 +1866,7 @@ section {
   font-weight: 600;
   margin-bottom: 5px;
   color: #433f39;
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .contact .info p {
