@@ -1126,6 +1126,10 @@ section {
 # About
 --------------------------------------------------------------*/
 
+.about {
+  background: #f8f9fa;
+}
+
 .about-icon {
   color: #f58f45;
   font-size: 2rem;
@@ -1778,15 +1782,19 @@ section {
 }
 
 .testimonials .testimonial-item h3 {
+  font-family: "Roboto", sans-serif;
+
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 200;
   margin: 10px 0 5px 0;
   color: #fff;
   font-family: "Poppins", sans-serif;
 }
 
 .testimonials .testimonial-item h4 {
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
+  font-weight: 200;
   color: #ddd;
   margin: 0 0 15px 0;
   font-family: "Comic Neue", sans-serif;
@@ -1817,7 +1825,9 @@ section {
 }
 
 .testimonials .testimonial-item p {
+  font-family: "Roboto", sans-serif;
   font-style: italic;
+  font-weight: 200;
   margin: 0 auto 15px auto;
   color: #eee;
 }
@@ -2020,7 +2030,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #fff;
+  background: #f8f9fa;
   color: #35322d;
   font-size: 14px;
   text-align: center;
